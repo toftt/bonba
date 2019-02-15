@@ -1,16 +1,15 @@
-import React, { useEffect } from 'react';
-import axios from 'axios';
+import React from 'react';
+import CssBaseline from '@material-ui/core/CssBaseline';
 
+import FrontPage from './FrontPage';
 
 function Root() {
-
-    useEffect(() => {
-        axios.get('/test').then(res => console.log(res)).catch(err => console.log(err));
-    }, []);
-
-    return (
-        <div>hif</div>
-    );
+  return (
+    <>
+      <CssBaseline />
+      <FrontPage />
+    </>
+  );
 }
 
 export default Root;
