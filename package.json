@@ -1,0 +1,11 @@
+{
+  "name": "bonba",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/toftt/bonba.git",
+  "author": "Joachim Toft <c.joachim.toft@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
