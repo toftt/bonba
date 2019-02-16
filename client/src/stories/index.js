@@ -6,6 +6,8 @@ import { linkTo } from '@storybook/addon-links';
 
 import { Button, Welcome } from '@storybook/react/demo';
 import MemberList from '../components/MemberList';
+import TrackList from '../components/TrackHistory';
+import TrackHistory from '../components/TrackHistory';
 
 storiesOf('Welcome', module).add('to Storybook', () => (
   <Welcome showApp={linkTo('Button')} />
@@ -41,3 +43,45 @@ const members = [
 storiesOf('MemberList', module).add('normal', () => (
   <MemberList members={members} />
 ));
+
+const tracks = [
+  {
+    artist: 'Fanny Chan',
+    title: 'KoKoKoKooooo',
+    image: 'https://i.scdn.co/image/5a73a056d0af707b4119a883d87285feda543fbb'
+  },
+  {
+    artist: 'The Boystreet backs',
+    title: 'London Tomorrow',
+    image: 'https://i.scdn.co/image/5a73a056d0af707b4119a883d87285feda543fbb'
+  },
+  {
+    artist: 'The Boystreet backs',
+    title: 'London Tomorrowwwwwwwwww',
+    image: 'https://i.scdn.co/image/5a73a056d0af707b4119a883d87285feda543fbb'
+  },
+  {
+    artist: 'The Boystreet backs',
+    title: 'London Tomorrowbsbs',
+    image: 'https://i.scdn.co/image/5a73a056d0af707b4119a883d87285feda543fbb'
+  },
+  {
+    artist: 'The Boystreet backs',
+    title: 'London ',
+    image: 'https://i.scdn.co/image/5a73a056d0af707b4119a883d87285feda543fbb'
+  },
+  {
+    artist: 'The Boystreet backs',
+    title: 'London aa Tomorrow',
+    image: 'https://i.scdn.co/image/5a73a056d0af707b4119a883d87285feda543fbb'
+  },
+  {
+    artist: 'The Boystreet backs',
+    title: 'London  IO Tomorrow',
+    image: 'https://i.scdn.co/image/5a73a056d0af707b4119a883d87285feda543fbb'
+  }
+];
+
+storiesOf('TrackHistory', module).add('spicy', () => {
+  return <TrackHistory tracks={tracks} />;
+});
