@@ -4,12 +4,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import FrontPage from './FrontPage';
 
 function Root() {
-  return (
-    <>
-      <CssBaseline />
-      <FrontPage />
-    </>
-  );
+  return <FrontPage />;
 }
 
 export default Root;
