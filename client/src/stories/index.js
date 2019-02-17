@@ -6,8 +6,8 @@ import { linkTo } from '@storybook/addon-links';
 
 import { Button, Welcome } from '@storybook/react/demo';
 import MemberList from '../components/MemberList';
-import TrackList from '../components/TrackHistory';
 import TrackHistory from '../components/TrackHistory';
+import Player from '../components/Player';
 
 storiesOf('Welcome', module).add('to Storybook', () => (
   <Welcome showApp={linkTo('Button')} />
@@ -84,4 +84,11 @@ const tracks = [
 
 storiesOf('TrackHistory', module).add('spicy', () => {
   return <TrackHistory tracks={tracks} />;
+});
+
+const audioUrl =
+  'https://p.scdn.co/mp3-preview/3eb16018c2a700240e9dfb8817b6f2d041f15eb1?cid=774b29d4f13844c495f206cafdad9c86';
+
+storiesOf('Player', module).add('player', () => {
+  return <Player src={audioUrl} seekTime={6020} />;
 });

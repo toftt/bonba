@@ -9,10 +9,10 @@ const theme = createMuiTheme();
 
 const App = () => (
   <ThemeProvider theme={theme}>
-    <React.Fragment>
+    <>
       <CssBaseline />
       <Root />
-    </React.Fragment>
+    </>
   </ThemeProvider>
 );
 
