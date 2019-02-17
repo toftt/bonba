@@ -20,7 +20,7 @@ const useStyles = makeStyles(() => ({
   }
 }));
 
-function MemberList({ members }) {
+function ScoreBoard({ members }) {
   const classes = useStyles();
 
   return (
@@ -40,4 +40,4 @@ function MemberList({ members }) {
   );
 }
 
-export default MemberList;
+export default ScoreBoard;

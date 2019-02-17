@@ -1,10 +1,10 @@
 import React from 'react';
-import CssBaseline from '@material-ui/core/CssBaseline';
 
 import FrontPage from './FrontPage';
+import Main from './Main';
 
 function Root() {
-  return <FrontPage />;
+  return <Main />;
 }
 
 export default Root;

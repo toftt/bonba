@@ -4,6 +4,10 @@ import { makeStyles } from '@material-ui/styles';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import Typography from '@material-ui/core/Typography';
 import MusicNoteIcon from '@material-ui/icons/MusicNote';
+import VolumeUpIcon from '@material-ui/icons/VolumeUp';
+import VolumeOffIcon from '@material-ui/icons/VolumeOff';
+import IconButton from '@material-ui/core/IconButton';
+import Slider from '@material-ui/lab/Slider';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -19,6 +23,17 @@ const useStyles = makeStyles(theme => ({
     animation: 'dance 2500ms infinite',
     animationName: '$dance',
     color: theme.palette.primary
+  },
+  slider: {
+    padding: '24px 0px'
+  },
+  sliderRoot: {
+    width: '30%'
+  },
+  volumeContainer: {
+    display: 'flex',
+    width: '100%',
+    justifyContent: 'flex-end'
   },
   '@keyframes dance': {
     '12%': {
@@ -53,6 +68,8 @@ function Player({ src, seekTime }) {
   const audioEl = useRef(null);
   const [progress, setProgress] = useState(0);
   const [timeLeft, setTimeLeft] = useState(0);
+  const [volume, setVolume] = useState(0);
+  const [muted, setMuted] = useState(false);
 
   const handleReady = () => {
     audioEl.current.currentTime = seekTime / 1000;
@@ -78,11 +95,16 @@ function Player({ src, seekTime }) {
     };
   }, [src]);
 
+  useEffect(() => {
+    audioEl.current.volume = volume;
+  }, [volume]);
+
   return (
     <div>
       <audio
         autoPlay
         ref={audioEl}
+        muted={muted}
         preload="auto"
         onTimeUpdate={() => handleTimeUpdate()}
       >
@@ -93,6 +115,20 @@ function Player({ src, seekTime }) {
         <MusicNoteIcon className={classes.icon} fontSize="large" />
         <div className={classes.wrapper}>
           <LinearProgress variant="determinate" value={progress} />
+        </div>
+        <div className={classes.volumeContainer}>
+          <IconButton onClick={() => setMuted(!muted)}>
+            {muted ? <VolumeOffIcon /> : <VolumeUpIcon />}
+          </IconButton>
+          <Slider
+            className={classes.sliderRoot}
+            classes={{ container: classes.slider }}
+            value={volume}
+            min={0}
+            max={1}
+            step={0.05}
+            onChange={(_, value) => setVolume(value)}
+          />
         </div>
         <Typography align="center" variant="h2" component="h2">
           {timeLeft}

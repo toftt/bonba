@@ -20,12 +20,13 @@ const useStyles = makeStyles(() => ({
     width: '100%'
   },
   cover: {
-    width: '100px',
-    flex: '0 0 100px'
+    flex: '0 0 72px'
   },
   content: {
     flex: '1 1 auto',
-    minWidth: '0px'
+    minWidth: '0px',
+    padding: '6px',
+    paddingLeft: '20px'
   },
   typography: {
     whiteSpace: 'nowrap',
@@ -38,7 +39,7 @@ function TrackHistory({ tracks }) {
   const classes = useStyles();
 
   return (
-    <Paper elevation="10" className={classes.root}>
+    <Paper elevation={4} className={classes.root}>
       <Scrollbars autoHeight autoHeightMax={380}>
         <List
           dense
@@ -46,7 +47,7 @@ function TrackHistory({ tracks }) {
         >
           {tracks.map(({ title, artist, image }) => (
             <ListItem>
-              <Card elevation="1" className={classes.card} key={title + artist}>
+              <Card elevation={1} className={classes.card} key={title + artist}>
                 <CardContent className={classes.content}>
                   <Typography
                     className={classes.typography}
