@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/styles';
 import TextField from '@material-ui/core/TextField';
 
 import { members, tracks, audioUrl } from '../testData';
+import { useSocket } from '../SocketContext';
 import ScoreBoard from './ScoreBoard';
 import Player from './Player';
 import TrackHistory from './TrackHistory';
@@ -34,6 +35,18 @@ const useStyles = makeStyles(() => ({
 
 function Main() {
   const classes = useStyles();
+  const socket = useSocket();
+
+  const [src, setSrc] = useState(audioUrl);
+
+  useEffect(() => {
+    const handleSong = json => {
+      const song = JSON.parse(json);
+      setSrc(song.preview_url);
+    };
+    socket.on('give_song', handleSong);
+    return () => socket.removeListener('give_song', handleSong);
+  }, []);
 
   return (
     <div className={classes.wrapper}>
@@ -43,13 +56,16 @@ function Main() {
           <TrackHistory tracks={tracks} />
         </div>
         <div className={classes.flexColumn}>
-          <Player src={audioUrl} seekTime={0} />
+          <Player src={src} seekTime={0} />
           <TextField
             variant="outlined"
             label="Guess song title or artist name"
           />
         </div>
         <Chat />
+        <button type="submit" onClick={() => socket.emit('request_song')}>
+          GIVE SONG
+        </button>
       </div>
     </div>
   );

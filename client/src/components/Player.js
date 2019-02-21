@@ -68,31 +68,27 @@ function Player({ src, seekTime }) {
   const audioEl = useRef(null);
   const [progress, setProgress] = useState(0);
   const [timeLeft, setTimeLeft] = useState(0);
-  const [volume, setVolume] = useState(0);
+  const [volume, setVolume] = useState(0.05);
   const [muted, setMuted] = useState(false);
-
-  const handleReady = () => {
-    audioEl.current.currentTime = seekTime / 1000;
-    audioEl.current.removeEventListener('canplay', handleReady);
-  };
 
   const handleTimeUpdate = useMemo(
     () =>
       throttle(() => {
         const { duration, currentTime } = audioEl.current;
-        const newProgress = (currentTime / duration) * 100;
-        const newTimeLeft = Math.round(duration - currentTime);
+        const safeDuration = duration || 30;
+        const newProgress = (currentTime / safeDuration) * 100;
+        const newTimeLeft = Math.round(safeDuration - currentTime);
         setTimeLeft(newTimeLeft);
         setProgress(newProgress);
       }, 1000),
-    []
+    [src, seekTime]
   );
 
   useEffect(() => {
-    audioEl.current.addEventListener('canplay', handleReady);
-    return () => {
-      audioEl.current.removeEventListener('canplay', handleReady);
-    };
+    audioEl.current.pause();
+    audioEl.current.load();
+    audioEl.current.currentTime = seekTime / 1000;
+    audioEl.current.play();
   }, [src]);
 
   useEffect(() => {
@@ -102,10 +98,8 @@ function Player({ src, seekTime }) {
   return (
     <div>
       <audio
-        autoPlay
         ref={audioEl}
         muted={muted}
-        preload="auto"
         onTimeUpdate={() => handleTimeUpdate()}
       >
         <track kind="captions" />

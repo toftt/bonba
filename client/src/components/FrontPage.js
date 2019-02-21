@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import TextField from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/styles';
+import { useSocket } from '../SocketContext';
 
 import logo from '../img/logo.png';
 
@@ -22,8 +24,13 @@ const useStyles = makeStyles(theme => ({
 
 function FrontPage() {
   const classes = useStyles();
+  const socket = useSocket();
 
   const [nickname, setNickname] = useState('');
+
+  const handleClick = () => {
+    socket.emit('nickname', nickname);
+  };
 
   return (
     <div className={classes.container}>
@@ -36,6 +43,9 @@ function FrontPage() {
         margin="normal"
         variant="outlined"
       />
+      <Button onClick={() => handleClick()} color="primary" variant="contained">
+        Lets go!
+      </Button>
     </div>
   );
 }

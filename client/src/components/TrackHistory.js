@@ -46,8 +46,8 @@ function TrackHistory({ tracks }) {
           subheader={<ListSubheader disableSticky>TRACK HISTORY</ListSubheader>}
         >
           {tracks.map(({ title, artist, image }) => (
-            <ListItem>
-              <Card elevation={1} className={classes.card} key={title + artist}>
+            <ListItem key={title + artist}>
+              <Card elevation={1} className={classes.card}>
                 <CardContent className={classes.content}>
                   <Typography
                     className={classes.typography}
