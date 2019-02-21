@@ -1,0 +1,628 @@
+{
+	"popList": [{
+		"artists": ["Bebe Rexha"],
+		"name": "Last Hurrah",
+		"preview_url": "https://p.scdn.co/mp3-preview/544f1a165ee7ac62b8a5ddaac1147f977a0ba7ed?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/7c831906270b0bfc37e3aec47a1f488040489b5d"
+	}, {
+		"artists": ["Kygo", "Valerie Broussard"],
+		"name": "Think About You (feat. Valerie Broussard)",
+		"preview_url": "https://p.scdn.co/mp3-preview/6cf3fc152905cf98a857c5a36a266b28bc1c50be?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/400483b3945df50b010e9a20a3dd359b99078557"
+	}, {
+		"artists": ["estrad", "Tjuvjakt"],
+		"name": "Vårt år",
+		"preview_url": "https://p.scdn.co/mp3-preview/019261f3b183c5d5b8a922c9d587ecc64ca8aebf?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/efbb59b463975c0e4d1d37ed29cb07ebeaf35747"
+	}, {
+		"artists": ["Z.E", "Jiggz"],
+		"name": "Ungefär",
+		"preview_url": "https://p.scdn.co/mp3-preview/81bcef770df02b0edd5ca879550520edc4a2d278?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/90b61a3f127895b141a0cd16ec7d474a8576e92e"
+	}, {
+		"artists": ["Cardi B", "Bruno Mars"],
+		"name": "Please Me",
+		"preview_url": "https://p.scdn.co/mp3-preview/a25d43f3262e07622ba8876b10d7a56d069eea05?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/a538aba8093c383199a6389bd0b0a1e08a7f6689"
+	}, {
+		"artists": ["Dennis Lloyd"],
+		"name": "Never Go Back",
+		"preview_url": "https://p.scdn.co/mp3-preview/8be423f626de817d5e5898deb6f2f90fce899f55?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/24e54889974f101025765aa412ac40dba1e842c1"
+	}, {
+		"artists": ["Dimitri Vegas & Like Mike", "Era Istrefi"],
+		"name": "Selfish",
+		"preview_url": "https://p.scdn.co/mp3-preview/f0a8c630b0867b03e094efbbc3886dda34cfe6a6?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/4d3bd8285e9a3863f8d37a74be339966460f0c4f"
+	}, {
+		"artists": ["Elvis Presley", "Post Malone", "Shawn Mendes", "Darius Rucker", "Blake Shelton", "Carrie Underwood"],
+		"name": "If I Can Dream (from the NBC Elvis All-Star Tribute)",
+		"preview_url": "https://p.scdn.co/mp3-preview/a277ad09e179423f6e88b6a887cfe02df7d31f57?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/4bcb84a5575bf407f4a21a74990d694eace474d4"
+	}, {
+		"artists": ["Avril Lavigne"],
+		"name": "Dumb Blonde feat. Nicki Minaj",
+		"preview_url": "https://p.scdn.co/mp3-preview/47880e6ca4b25bc1efbc22998556e3fa90b4014f?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/c8e80e7e26bba564aea7d39de7a2bc14d6db878e"
+	}, {
+		"artists": ["Cherrie"],
+		"name": "OG",
+		"preview_url": "https://p.scdn.co/mp3-preview/bbf390de7a03804d705ba3884a31e0af6f955f26?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/dd5f84107f3ecb2668776e9f372c0e52a41610df"
+	}, {
+		"artists": ["Junior Brielle"],
+		"name": "Fem i Fem",
+		"preview_url": "https://p.scdn.co/mp3-preview/21ca2341d299800ec46a15f2a0cdca5d1436ff96?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/9ac5c6c279041158c6a4689aeb95e4829c8d2478"
+	}, {
+		"artists": ["Silvana Imam"],
+		"name": "Helig Moder",
+		"preview_url": "https://p.scdn.co/mp3-preview/7c227ed628b6ce93aed1e0287567cbe3322d008e?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/d56726c10eafc508253e00e12b8d7ea16fa72077"
+	}, {
+		"artists": ["Gunna"],
+		"name": "Speed It Up",
+		"preview_url": "https://p.scdn.co/mp3-preview/8767570f70008b7593eea9f63421f3353f9425f8?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/062d158cec1dcf9305dd5c9d686eb293d6f4ebb1"
+	}, {
+		"artists": ["Danny Ocean"],
+		"name": "Swing",
+		"preview_url": "https://p.scdn.co/mp3-preview/140ff846dc67b78825fd1898a251760b4e36cdf9?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/b2f2e90c31e3635644dfd32383f97d8f669c8d21"
+	}, {
+		"artists": ["Lucas & Steve"],
+		"name": "Say Something",
+		"preview_url": "https://p.scdn.co/mp3-preview/bf7e457d0f552805596ed1976e197831cd288881?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/8fa5d0785cb12432bb732c0ef4a6bfe6e61397c5"
+	}, {
+		"artists": ["Mike Perry"],
+		"name": "Way Too High",
+		"preview_url": "https://p.scdn.co/mp3-preview/3ed2f0703a3086983d8d332c5d29d0cda8542066?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/85b1c16dd9ac55fd782c47edd5b660ad2dc19384"
+	}, {
+		"artists": ["CXLOE"],
+		"name": "I Can't Have Nice Things",
+		"preview_url": "https://p.scdn.co/mp3-preview/1a77e41d9bc5a749630ce3bdb34f02c4a9b1f36e?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/d34b3fb73213c859288ed3d9858366e96ede5223"
+	}, {
+		"artists": ["Why Don't We"],
+		"name": "Cold In LA",
+		"preview_url": "https://p.scdn.co/mp3-preview/8a153fd1e6b4a0f2289c7fe5e9ab4b0e15e99fdd?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/4ed30e74b2aabb687334988087f33f54cf9524de"
+	}, {
+		"artists": ["Kehlani"],
+		"name": "Butterfly",
+		"preview_url": "https://p.scdn.co/mp3-preview/3b027cc9f7a48931cde301b51eea04e16310bc6e?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/2e9abecb8ea306d83de342e4b825ef422f20786f"
+	}, {
+		"artists": ["John Legend"],
+		"name": "Preach",
+		"preview_url": "https://p.scdn.co/mp3-preview/047ba249f6c8f53ae724761a3a18578c5df8a967?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/649587b2e043a14dbf5efb78f72ec0b6bec4b680"
+	}, {
+		"artists": ["Iselin"],
+		"name": "Anyone Out There",
+		"preview_url": "https://p.scdn.co/mp3-preview/9c4d3d52c857fae98eba589fd1d3df2a2f07d19d?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/0ca97ff86e70d8a40246f81e5e7caacc946e11fc"
+	}, {
+		"artists": ["Flawes"],
+		"name": "Don't Count Me Out",
+		"preview_url": "https://p.scdn.co/mp3-preview/f18a361e27c7e2cead0f3d99b81ac313e8906980?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/c137fb1f87a860a9b8921dbc3e90c28614f3ee38"
+	}, {
+		"artists": ["Alicia Keys"],
+		"name": "Raise A Man",
+		"preview_url": "https://p.scdn.co/mp3-preview/a2dd1caa2741ade6c8ed8fe11f514d1200e9e7d1?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/e80c68997616713874ef9f13a5250454b915e2f1"
+	}, {
+		"artists": ["Andy Grammer"],
+		"name": "Don't Give Up On Me - From \"Five Feet Apart\"",
+		"preview_url": "https://p.scdn.co/mp3-preview/c00c19589796dc3f1725c0c24f10e0e16000994e?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/ca8292bbabc88f1f832f67e2340fe3026ea8c579"
+	}, {
+		"artists": ["Marlene Oak"],
+		"name": "How Can I Move On",
+		"preview_url": "https://p.scdn.co/mp3-preview/9d16197da2b46507f7c1b7fe16e3b5d47b376c43?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/36a4d6951bccff2b9d4377a25936165b16748f54"
+	}, {
+		"artists": ["Rex Orange County"],
+		"name": "New House",
+		"preview_url": "https://p.scdn.co/mp3-preview/ba488ae916b881749b6974e29de5e7df12475d85?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/a6ff826ab7024f1fb564168d9663006ae4eabf1f"
+	}, {
+		"artists": ["Quinn XCII"],
+		"name": "U & Us",
+		"preview_url": "https://p.scdn.co/mp3-preview/b631d4ccc57b545e4b4fdcbf3fc58f65ebe60395?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/9d6114581a669874fd043c67088c0ccd264f7d33"
+	}, {
+		"artists": ["Tory Ruperto"],
+		"name": "Side Chick",
+		"preview_url": "https://p.scdn.co/mp3-preview/30c05cf62e56582f6e84e929d526f71fbb55bc9e?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/cac561c479f7da734bbc684d3c6c9742384e47ab"
+	}, {
+		"artists": ["Blueface", "YG"],
+		"name": "Thotiana (REMIX feat. YG)",
+		"preview_url": "https://p.scdn.co/mp3-preview/568b555c148f4d88a4892165023569ef8a8ee467?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/47001733db1322fcda9e52658a6a627320217892"
+	}, {
+		"artists": ["Ciara"],
+		"name": "Greatest Love",
+		"preview_url": "https://p.scdn.co/mp3-preview/00ec525bfffdb859f95c8581031a166e498730ca?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/214ff90db0d036828e264ede688503c4fda64377"
+	}, {
+		"artists": ["CNCO"],
+		"name": "Pretend",
+		"preview_url": "https://p.scdn.co/mp3-preview/ad3139f2484854d1475b411d4b8f3d74e9a30585?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/d100e85125d5f81bfc96fd06cbbdda12d4f17a76"
+	}, {
+		"artists": ["MOTi", "Lovespeake", "Terry McLove"],
+		"name": "Found Love",
+		"preview_url": "https://p.scdn.co/mp3-preview/d21b331206b7af8aa56aee4698f7d8d6c98d5dde?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/42e513f6b4571cced4468f985fd2f9b6f040579c"
+	}, {
+		"artists": ["TooManyLeftHands", "Brandon Beal"],
+		"name": "No Love",
+		"preview_url": "https://p.scdn.co/mp3-preview/bbaebe575786d5637ead5d68786d2e8d0acb1bc1?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/0fa44cace7c3a116d806502d6f04b95b503f08d8"
+	}, {
+		"artists": ["Betty Who"],
+		"name": "Language",
+		"preview_url": "https://p.scdn.co/mp3-preview/d5c74163c61867f272c8c829a9f5bb5d02377b5c?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/bb35b8325c8fabea82b112454a0ea734576117c1"
+	}, {
+		"artists": ["Fox Blanco"],
+		"name": "VR - Main Mix",
+		"preview_url": "https://p.scdn.co/mp3-preview/09b92b53b3f9b0408fd15cf417b8dcbe3d1d3865?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/230187a1642484b103905397e687b18548aab0eb"
+	}, {
+		"artists": ["Nicky Romero", "David Guetta"],
+		"name": "Ring The Alarm",
+		"preview_url": "https://p.scdn.co/mp3-preview/dc311bdb5938fee51d7e9fb026581d93a1a95942?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/5602781301d35b961aaf35a5046c557347c4b0c0"
+	}, {
+		"artists": ["Firebeatz", "Schella"],
+		"name": "Through My Mind",
+		"preview_url": "https://p.scdn.co/mp3-preview/fdeaa5362d111213bee055d0538f0022d451ff1b?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/2e39bf133a7805315ac4a4f2add551d450264b4a"
+	}, {
+		"artists": ["Felix Cartal", "Lights"],
+		"name": "Love Me",
+		"preview_url": "https://p.scdn.co/mp3-preview/b89a06dace0a674ed7d5ea622dd4c5757778c036?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/0230a5cc10e54c0fa714f66594832ae7f927b88b"
+	}, {
+		"artists": ["Varas", "Raghd"],
+		"name": "Comfy",
+		"preview_url": "https://p.scdn.co/mp3-preview/276efe48deb0e4f6d6a8dd3b0cfb423115077a85?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/b42d6b4a763b0090a3137a1ee429dea6928ad6f9"
+	}, {
+		"artists": ["Juicy J", "Kevin Gates", "Lil Skies"],
+		"name": "Let Me See (feat. Kevin Gates & Lil Skies)",
+		"preview_url": "https://p.scdn.co/mp3-preview/f87474382a8807b01656462938d2cf8d57f7915e?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/e558029efddcf5b48fe1aa06e2ad7045d4cf86a6"
+	}, {
+		"artists": ["Andreas Wijk"],
+		"name": "peace 佑 piəɔə",
+		"preview_url": "https://p.scdn.co/mp3-preview/9fe3a54f7e4048ab3ddad46e08fcf8eff12d4910?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/2d8050f6abab8cad1501c03664b1d4046eb21d96"
+	}, {
+		"artists": ["Reyn"],
+		"name": "Mörkret faller",
+		"preview_url": "https://p.scdn.co/mp3-preview/0ed7628be718b989ddf843620d5f9c5acd98eeec?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/4115c8229cd1a6a10c6611bf49acdc15df6aca85"
+	}, {
+		"artists": ["GOLDHOUSE"],
+		"name": "You",
+		"preview_url": "https://p.scdn.co/mp3-preview/20b1436c93b490cc68a97a1495682e84b4a0f269?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/b9e9faaee3fb1515e22cb4eeb675daf6b938a366"
+	}, {
+		"artists": ["Maisie Peters"],
+		"name": "Stay Young",
+		"preview_url": "https://p.scdn.co/mp3-preview/fb9bbf91d895046005a241e2563ccf8c6de9bd5d?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/17c26c043dfe52eb91e25f4777ec0d75defc201f"
+	}, {
+		"artists": ["Sara Bareilles"],
+		"name": "Fire",
+		"preview_url": "https://p.scdn.co/mp3-preview/e0ae1f07c166dbb46d696748232894c50df12fdf?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/08f070e77dd41950f024232e45af446aba7b116a"
+	}, {
+		"artists": ["Sebastian Tadros"],
+		"name": "My Love",
+		"preview_url": "https://p.scdn.co/mp3-preview/278b9545b85424decdfb65c9863e2cce144cb126?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/7075ed312f3a68a62d3d0f88ef2e0bc953f79745"
+	}, {
+		"artists": ["Lizzo"],
+		"name": "Cuz I Love You",
+		"preview_url": "https://p.scdn.co/mp3-preview/c47f3939a1f815e9b83e1a16508286a0a829374e?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/6492321a4caa76262fe25b6e5ba5fb887b05e11a"
+	}, {
+		"artists": ["Lil AK", "6ix9ine"],
+		"name": "LANES",
+		"preview_url": "https://p.scdn.co/mp3-preview/dd92233ad52c81b10f7c04c725448ca1de362779?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/5c4da9a4fde5b1506372b0ae7bea2bb35693cbb4"
+	}, {
+		"artists": ["T-Pain", "Flipp Dinero"],
+		"name": "All I Want (feat. Flipp Dinero)",
+		"preview_url": "https://p.scdn.co/mp3-preview/3d71d23b8a827c6443d8194e4bffa8fa42d95676?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/ccac19e7425eb29cd1917ba7ff7c7bc4cad517dd"
+	}, {
+		"artists": ["Foals"],
+		"name": "On The Luna",
+		"preview_url": "https://p.scdn.co/mp3-preview/24cf75fbb628a2ff80aafd357f0e2686974461aa?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/8f8f978bdcb1a3c4add474379fe19d9bcf9be3ff"
+	}, {
+		"artists": ["Millencolin"],
+		"name": "Sour Days",
+		"preview_url": "https://p.scdn.co/mp3-preview/2ba8430854189acd6c948e67295ad62ba45482c9?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/13b9c7d6a98303e1cf407e7fa2ac1a2553fd9bcd"
+	}, {
+		"artists": ["Jackie Tech", "RDX"],
+		"name": "Temple",
+		"preview_url": "https://p.scdn.co/mp3-preview/5020a2803b0ac1bd2e6df3510a600f90b950ecb6?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/db4c518b5015f15b185b0c7ab295166cf6d546f3"
+	}, {
+		"artists": ["Rat City", "Isak Heim"],
+		"name": "Kind of Love (feat. Isak Heim)",
+		"preview_url": "https://p.scdn.co/mp3-preview/2c76b9b3818c3711057fc770762b5622e9d86f50?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/160ebcfda8fb7fc48fa38cb2f1060f6d6c561443"
+	}, {
+		"artists": ["Frye"],
+		"name": "Reasons",
+		"preview_url": "https://p.scdn.co/mp3-preview/63098d21ea634f2ef22299cac0445b892dca9ce0?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/cb11c9a75358c1eb1a15090652375e5b2dacf555"
+	}, {
+		"artists": ["GASHI", "Ledri Vula"],
+		"name": "That's Mine (feat. Ledri Vula)",
+		"preview_url": "https://p.scdn.co/mp3-preview/8dccadc8aac55d770edecaaea0b51403b07e936d?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/7f1651d71dd3c3e53d3101c9546e616e44eca3f3"
+	}, {
+		"artists": ["Doja Cat", "Rico Nasty"],
+		"name": "Tia Tamera (feat. Rico Nasty)",
+		"preview_url": "https://p.scdn.co/mp3-preview/d418e63875344ba4fe8806da2cd299ccd2c128d3?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/cf8ebd2e596ad340857546d88abedb4b9b5e6ce7"
+	}, {
+		"artists": ["AUGUST 08", "Smino"],
+		"name": "Blood On My Hands (feat. Smino)",
+		"preview_url": "https://p.scdn.co/mp3-preview/499d02d22363f26a6fd3a44c17c1f992ad18c93c?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/98caebc55957962034ccc4e52aa241e6985012ad"
+	}, {
+		"artists": ["Tommy Genesis"],
+		"name": "I'm Yours",
+		"preview_url": "https://p.scdn.co/mp3-preview/ffdbdd4ee4e31d59076f421104bb524d64d64a29?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/6116a71af8a805fd19a9b19f755aa9c1e7aaf218"
+	}, {
+		"artists": ["Louam"],
+		"name": "Wreckless Love",
+		"preview_url": "https://p.scdn.co/mp3-preview/073391d338af099f6ea2a0a244b69eedd9f10270?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/39919322782d475709915377cf227dd6f883a11d"
+	}, {
+		"artists": ["Linying"],
+		"name": "All of Our Friends Know",
+		"preview_url": "https://p.scdn.co/mp3-preview/c8770ac044a907c5f8a87377b478816a305f7f53?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/f83cf5c8234169b185c5b952c6bb50930e1027ca"
+	}, {
+		"artists": ["CUTTS"],
+		"name": "Breathe",
+		"preview_url": "https://p.scdn.co/mp3-preview/0db8f1bfd228c47b2c95a5bbad0ad54f401a86e7?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/997293101bdf23e1fc917c5fe8f72ca298dca5ad"
+	}, {
+		"artists": ["Louise Hoffsten"],
+		"name": "You Sing to Know",
+		"preview_url": "https://p.scdn.co/mp3-preview/0d0426d24e690ca1c195e5bb4f854adb66a94ee4?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/9869c1500ad88f30ecbbe3235d7bcf0d5127436f"
+	}, {
+		"artists": ["YONAKA"],
+		"name": "Bad Company",
+		"preview_url": "https://p.scdn.co/mp3-preview/de078d8e51b7190f24c5afc2461f9fe8a9d63fdf?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/8a52816e1aedd8ceade2e27c1a15ef5aca21257c"
+	}, {
+		"artists": ["Ally Barron"],
+		"name": "D T M",
+		"preview_url": "https://p.scdn.co/mp3-preview/f5d62ea5924bef50b33978f9b817f618d58afa39?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/73be2e4e2c24ab738e670de96ebea0bb2deea7dd"
+	}, {
+		"artists": ["Adrian Macéus"],
+		"name": "Ask You Out",
+		"preview_url": "https://p.scdn.co/mp3-preview/0027dd19239ab05cbd6ed8c115f1a0017413123c?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/45ceaa233426596f01c21f18219d10be8f19d9cd"
+	}, {
+		"artists": ["JAMO", "Hue"],
+		"name": "Falling Deep",
+		"preview_url": "https://p.scdn.co/mp3-preview/af5e7818ba50800653be315832de0d14bee7dc94?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/e2dc9f0ef32320202a17631729b559cfcbad34ad"
+	}, {
+		"artists": ["RUUD", "Romy Dya"],
+		"name": "Fire It Up",
+		"preview_url": "https://p.scdn.co/mp3-preview/4c8c249224d5c3589085c3229f0eccaeeda27b42?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/9181927199f3f8eb7ee85ce95326c6f2577c1c5a"
+	}, {
+		"artists": ["The Bland"],
+		"name": "17",
+		"preview_url": "https://p.scdn.co/mp3-preview/b8c4b580206eb7762a622797de929f3ce8d4743e?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/50cab6019a814a8aae19a7003235d3df46bed629"
+	}, {
+		"artists": ["Jamie Lawson"],
+		"name": "The Answer",
+		"preview_url": "https://p.scdn.co/mp3-preview/e57c2214a56805a83b9a3fa56b1135d80b47c88d?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/563a108eb850bd7224c28a0f2d8aa0f17868833b"
+	}, {
+		"artists": ["Saga Back"],
+		"name": "Cry",
+		"preview_url": "https://p.scdn.co/mp3-preview/d743bbbaebc175f76c551c9c32a33ca36b2177a1?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/cfdf64d3112f7030fdccc3692e4db09b34eb7bbe"
+	}, {
+		"artists": ["Archi & Pelago"],
+		"name": "Back",
+		"preview_url": "https://p.scdn.co/mp3-preview/54cec7a6a13925a2b5b39f7116be75187517e243?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/2e80606d07d1cf7ff3c7f551ee1121dc685bb074"
+	}, {
+		"artists": ["Merely"],
+		"name": "The Magic Shrine",
+		"preview_url": "https://p.scdn.co/mp3-preview/ceefb6b5f1d49c8c5907ac7162cc59cf1c27b988?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/de311e5f1dddd97b109b9dc49dad130fa9de9d82"
+	}, {
+		"artists": ["Tommy Nilsson"],
+		"name": "Högre",
+		"preview_url": "https://p.scdn.co/mp3-preview/5366d5f03b6ffefaaedd18c47194421f5b1fb795?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/cd91e33d7da6bc0e35fe3ff4a3014b45078b70d6"
+	}, {
+		"artists": ["Hasse Andersson"],
+		"name": "Bonden",
+		"preview_url": "https://p.scdn.co/mp3-preview/ce79fda9ded75f313af266452350aba3f2e139c7?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/f1dbf32940b35b2aafa7d2afbe28cd2a216e712b"
+	}, {
+		"artists": ["Michael Bublé"],
+		"name": "Love You Anymore - Recorded at Spotify Studios NYC",
+		"preview_url": "https://p.scdn.co/mp3-preview/1f8893ef8fd59444756a8b6a876bb08d583140ba?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/328fff11f3233a1a4d27290da06c9feaae0fd787"
+	}, {
+		"artists": ["Bruno Mars"],
+		"name": "24K Magic",
+		"preview_url": "https://p.scdn.co/mp3-preview/3213a35ec32d4c747e794072a5ef7b464b4fcb69?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/f77f484d87a4b84e611af30011c381f9ccef0d0b"
+	}, {
+		"artists": ["Britney Spears", "Tinashe"],
+		"name": "Slumber Party feat. Tinashe",
+		"preview_url": "https://p.scdn.co/mp3-preview/371eea068797a1d4919fff8e355d9173f29ef74f?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/33fdab9558b9fee53f6c44ea2279d5062e1256e8"
+	}, {
+		"artists": ["Clean Bandit", "Sean Paul", "Anne-Marie"],
+		"name": "Rockabye (feat. Sean Paul & Anne-Marie)",
+		"preview_url": "https://p.scdn.co/mp3-preview/3c126ba33517e26c879ac10e3099df15c7b2aec0?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/409e8a469637834bb4aaf7e1e3814beedc278fbe"
+	}, {
+		"artists": ["John Legend"],
+		"name": "Love Me Now",
+		"preview_url": "https://p.scdn.co/mp3-preview/1a295a0337cad3cf227d5b6d5007b6feec9c70fd?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/a4b181316f809906974b016c81ac6a1f8c01aaa7"
+	}, {
+		"artists": ["James Arthur"],
+		"name": "Say You Won't Let Go",
+		"preview_url": "https://p.scdn.co/mp3-preview/b079cbca31f049a450a35a329259f44244443043?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/3a7e5ca71c570959dd619d7705807c7238fd003b"
+	}, {
+		"artists": ["Bruno Mars"],
+		"name": "Versace On The Floor",
+		"preview_url": "https://p.scdn.co/mp3-preview/734b5d7f9b5552bb2a886b042be24c9ca6be9c9f?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/f77f484d87a4b84e611af30011c381f9ccef0d0b"
+	}, {
+		"artists": ["Ed Sheeran"],
+		"name": "Castle on the Hill",
+		"preview_url": "https://p.scdn.co/mp3-preview/beb4ed48cca5d2a792e877c7efe92d54046eac67?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/bc081c2723cda06b767891358814ecf0b01907eb"
+	}, {
+		"artists": ["Ed Sheeran"],
+		"name": "Shape of You",
+		"preview_url": "https://p.scdn.co/mp3-preview/84462d8e1e4d0f9e5ccd06f0da390f65843774a2?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/089726b25ce5a55b906b3b65580a517b65c7c881"
+	}, {
+		"artists": ["Anna Kendrick", "Justin Timberlake"],
+		"name": "True Colors",
+		"preview_url": "https://p.scdn.co/mp3-preview/35215f36da7471f853cc508c654b98728faf1a29?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/e01fa45b66d3fc82e432c27eb5bcc6cc5f3a924e"
+	}, {
+		"artists": ["Tom Odell"],
+		"name": "True Colours",
+		"preview_url": "https://p.scdn.co/mp3-preview/21d655cba3ebe8e0b1031b512816c4a2e6f6976f?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/5d177a5a21c946b6abecbd5afdd4b719e6442b3a"
+	}, {
+		"artists": ["Kygo", "Selena Gomez"],
+		"name": "It Ain't Me (with Selena Gomez)",
+		"preview_url": "https://p.scdn.co/mp3-preview/14c4f664755de848314b8acafae1f18fcc4f8660?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/46e5641fd12fb297801f987137d193c3548a3654"
+	}, {
+		"artists": ["Noah Cyrus", "Labrinth"],
+		"name": "Make Me (Cry)",
+		"preview_url": "https://p.scdn.co/mp3-preview/a61c0ae80960dbbb1a207e012255599813395e13?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/c57a692d2d9d205743cf16ab052ef38b764e775b"
+	}, {
+		"artists": ["Bruno Mars"],
+		"name": "That's What I Like",
+		"preview_url": "https://p.scdn.co/mp3-preview/f09116ce18bd77f543e68a925e5a96509e79ac6a?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/f77f484d87a4b84e611af30011c381f9ccef0d0b"
+	}, {
+		"artists": ["Clean Bandit", "Zara Larsson"],
+		"name": "Symphony (feat. Zara Larsson)",
+		"preview_url": "https://p.scdn.co/mp3-preview/45e100c336ff5ebbc5bdbae4224f25aa08fa9ca2?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/0e0f8884780e5d813d2832752fbb5c21667cd98a"
+	}, {
+		"artists": ["Olly Murs"],
+		"name": "Years & Years",
+		"preview_url": "https://p.scdn.co/mp3-preview/c828e313982957bb05475e69637eac91132c2811?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/f369d93f08d9744cff7a9978e8747f8ad262c745"
+	}, {
+		"artists": ["Charlie Puth"],
+		"name": "Some Type Of Love",
+		"preview_url": "https://p.scdn.co/mp3-preview/b23d217e3cf60dc9b9ace12d084cee0c9a6a794c?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/1dbf9cac2d8ec13a588f8cb4b93dc028935a4ecc"
+	}, {
+		"artists": ["ZAYN", "PARTYNEXTDOOR"],
+		"name": "Still Got Time",
+		"preview_url": "https://p.scdn.co/mp3-preview/2385471a5d35709ad90e368dacabe4082af4541a?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/fdcadb88c9a345755e5143b587d32c3f4029f1c1"
+	}, {
+		"artists": ["Harry Styles"],
+		"name": "Sign of the Times",
+		"preview_url": "https://p.scdn.co/mp3-preview/9801b9239ad1b833f1317574ee55b9d7b8426ff1?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/7262616feb0f69e0188f491cbbb8fa6aee93231d"
+	}, {
+		"artists": ["Kygo", "Ellie Goulding"],
+		"name": "First Time",
+		"preview_url": "https://p.scdn.co/mp3-preview/f5e35495b56260a06a92b308d616ab71e079e903?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/02e1af400f8d965d73e7d54d25e9b8fb7376b46f"
+	}, {
+		"artists": ["Miley Cyrus"],
+		"name": "Malibu",
+		"preview_url": "https://p.scdn.co/mp3-preview/85e214544e55a8fc19d57335f304792804421501?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/cd84e8939f25d3e6a3f6610f83752b62ef387ebe"
+	}, {
+		"artists": ["Ed Sheeran"],
+		"name": "Galway Girl",
+		"preview_url": "https://p.scdn.co/mp3-preview/cec1fc40a0220f20d3b91dd28d8e1141ad5e7e25?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/6f2621d1552021fd87898d69899e214c0a977417"
+	}, {
+		"artists": ["Jason Derulo", "Nicki Minaj", "Ty Dolla $ign"],
+		"name": "Swalla (feat. Nicki Minaj & Ty Dolla $ign)",
+		"preview_url": "https://p.scdn.co/mp3-preview/9aa4e0500aae8b33d04f031c454688890ab06468?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/2800e9f3f5aadf99620ef196b0d94e602128539f"
+	}, {
+		"artists": ["David Guetta", "Nicki Minaj", "Lil Wayne"],
+		"name": "Light My Body Up (feat. Nicki Minaj & Lil Wayne)",
+		"preview_url": "https://p.scdn.co/mp3-preview/4c5ce0b1c962c0a98cd24133c867a3550100b35b?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/5441970dd53ac05d994c15aece96ff1be1520cd1"
+	}, {
+		"artists": ["Calvin Harris", "Pharrell Williams", "Katy Perry", "Big Sean"],
+		"name": "Feels",
+		"preview_url": "https://p.scdn.co/mp3-preview/0c58b32cdd0231ce4dc3cc2fe63a71046fd9f586?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/5a69f2c6f294a1e241b1ff5e89ee5b0a988ec732"
+	}, {
+		"artists": ["Stargate", "P!nk", "Sia"],
+		"name": "Waterfall",
+		"preview_url": "https://p.scdn.co/mp3-preview/f5753b50bc110510869bf8be7f4178bbcf9582d2?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/b57cef8d976481626ef618a0fd916a6f25f3ee57"
+	}, {
+		"artists": ["Kesha"],
+		"name": "Praying",
+		"preview_url": "https://p.scdn.co/mp3-preview/f6a3b344458b313022f0b1ceaa483b6ce6639b66?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/c9eb3c27200f9b8733f75ef1d7521003467f9f33"
+	}, {
+		"artists": ["Kesha"],
+		"name": "Learn To Let Go",
+		"preview_url": "https://p.scdn.co/mp3-preview/ee21651fa4745ebb0866998428697fec431c00e1?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/1981dc7bbbee4649da09a36f85eb8e32414bc902"
+	}, {
+		"artists": ["Charli XCX"],
+		"name": "Boys",
+		"preview_url": "https://p.scdn.co/mp3-preview/c9b500adf5f76635e064833f77d4ae0983b96c4b?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/8de425eb92ee50259092373f23219c383e4ee180"
+	}, {
+		"artists": ["Kesha", "The Dap-Kings Horns"],
+		"name": "Woman",
+		"preview_url": "https://p.scdn.co/mp3-preview/b7759c3f7098d4c2f9312867df675caf638e1f8f?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/b0a056927d5b5739ba01d898951ea227556dc92d"
+	}, {
+		"artists": ["Dua Lipa"],
+		"name": "New Rules",
+		"preview_url": "https://p.scdn.co/mp3-preview/75a1b521de23958a2db9acf4fc8151999ee54bd7?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/fd4f14a131cf01ab6a72c476ce9a6dcefa7f5c8f"
+	}, {
+		"artists": ["Rita Ora"],
+		"name": "Your Song",
+		"preview_url": "https://p.scdn.co/mp3-preview/91a31303c4101d8cdd1a7a3894644cc236c6e776?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/a819a787f9813518f30e198f205791547886cbf0"
+	}, {
+		"artists": ["P!nk"],
+		"name": "What About Us",
+		"preview_url": "https://p.scdn.co/mp3-preview/444931f5decdb6bbaeade77d1bcbb82f5258c1cf?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/63f3e06243d2aafb08ee88779097b59b311043ce"
+	}, {
+		"artists": ["Kesha"],
+		"name": "Rainbow",
+		"preview_url": "https://p.scdn.co/mp3-preview/a2d3fbad42840bd0ea63efaa5e8f69f5e56e8df9?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/f77c999178b21f93de3232519586748348a129f0"
+	}, {
+		"artists": ["The Script"],
+		"name": "Rain",
+		"preview_url": "https://p.scdn.co/mp3-preview/34111894a88a8df3e5e2a610f49f6fc12f475b7e?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/eb593252163a5b12840645cb3c3d76494ed7704a"
+	}, {
+		"artists": ["Ed Sheeran"],
+		"name": "Perfect",
+		"preview_url": "https://p.scdn.co/mp3-preview/9779493d90a47f29e4257aa45bc6146d1ee9cb26?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/6f2621d1552021fd87898d69899e214c0a977417"
+	}, {
+		"artists": ["Louis Tomlinson", "Bebe Rexha", "Digital Farm Animals"],
+		"name": "Back to You (feat. Bebe Rexha & Digital Farm Animals)",
+		"preview_url": "https://p.scdn.co/mp3-preview/7f538f37efa5e099ba7ad81f71aef10648c2da20?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/925fca6b11ef81f7a7b8af5ba43b9e41ad2ab1ef"
+	}, {
+		"artists": ["Rita Ora"],
+		"name": "Anywhere",
+		"preview_url": "https://p.scdn.co/mp3-preview/ec024df926734cd185ae9fde8d081cc4d451c4d9?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/16aceb7631e50495b0ddca6f607d7e0ddf6a4972"
+	}, {
+		"artists": ["Louis Tomlinson"],
+		"name": "Just Like You",
+		"preview_url": "https://p.scdn.co/mp3-preview/3985e006550e5257e2f3b297977e0a9df43aba2e?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/6924b2c8528f31dc18ee8dd54e086e82ece82f0d"
+	}, {
+		"artists": ["ZAYN", "Sia"],
+		"name": "Dusk Till Dawn - Radio Edit",
+		"preview_url": "https://p.scdn.co/mp3-preview/e2e03acfd38d7cfa2baa924e0e9c7a80f9b49137?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/eb0909052dc1bf9eb2da86a79996fd1766d921d6"
+	}, {
+		"artists": ["Kygo", "Justin Jesso"],
+		"name": "Stargazing",
+		"preview_url": "https://p.scdn.co/mp3-preview/1c83c44bc1fbe6bed8254c4203256778a7a8b83d?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/cf067323910ce9299788fd105495389227d155f9"
+	}, {
+		"artists": ["James Arthur"],
+		"name": "Naked",
+		"preview_url": "https://p.scdn.co/mp3-preview/90cacba244f9b5c31f3195b4be53121441280f42?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/5a098c89bfe40d821a8f4598ad0a99d0edf475b5"
+	}, {
+		"artists": ["Ed Sheeran", "Andrea Bocelli"],
+		"name": "Perfect Symphony (Ed Sheeran & Andrea Bocelli)",
+		"preview_url": "https://p.scdn.co/mp3-preview/a7a3d0c237792456f61c95fe4b9eff57a3cb6fc3?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/a3a6e743caaae1865aeea13154de714742a20786"
+	}, {
+		"artists": ["Jason Derulo", "French Montana"],
+		"name": "Tip Toe (feat. French Montana)",
+		"preview_url": "https://p.scdn.co/mp3-preview/1e99ffb3917c9531a8bc7f6435d7481441cdb17d?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/ee2cac73e073ba35946e0fa27c6c5bb07fcec9c8"
+	}, {
+		"artists": ["Dua Lipa"],
+		"name": "IDGAF",
+		"preview_url": "https://p.scdn.co/mp3-preview/d8a0e05a79451d12c6cb5425c50c8d2ff00d4705?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/fd4f14a131cf01ab6a72c476ce9a6dcefa7f5c8f"
+	}, {
+		"artists": ["Bruno Mars", "Cardi B"],
+		"name": "Finesse (Remix) [feat. Cardi B]",
+		"preview_url": "https://p.scdn.co/mp3-preview/10fbdd7986417e30e3bbf06d3fa22efe1663b2ee?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/4a56ddc69f70e5648b0b6d6d45e466512eeed35a"
+	}, {
+		"artists": ["Enrique Iglesias", "Bad Bunny"],
+		"name": "EL BAÑO",
+		"preview_url": "https://p.scdn.co/mp3-preview/0456d479f76cda3f7547568cba1194b7d3f518ce?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/de437660ae00c40647630fcec19b3dc077ec198d"
+	}, {
+		"artists": ["Zac Efron", "Zendaya"],
+		"name": "Rewrite The Stars",
+		"preview_url": "https://p.scdn.co/mp3-preview/fa020bdce61bb930040ae090510598b1daec2062?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/232e378bc0efb75d23df50c0bd7ee70d69e7bde3"
+	}, {
+		"artists": ["Camila Cabello"],
+		"name": "Never Be the Same",
+		"preview_url": "https://p.scdn.co/mp3-preview/51da25797c110cf14b87c3b308f4a86cb3e0afd4?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/014f38920ba75a4efd3488b4626cf6e16f94c9e5"
+	}, {
+		"artists": ["Lost Frequencies", "Zonderling"],
+		"name": "Crazy",
+		"preview_url": "https://p.scdn.co/mp3-preview/df84504405c8c225c4479b4102aad2c1aa9e3e4e?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/720ef1675e52d843fa4d8d5480ac980a4be9d9c0"
+	}, {
+		"artists": ["Alan Walker", "Noah Cyrus", "Digital Farm Animals", "Juliander"],
+		"name": "All Falls Down (feat. Juliander)",
+		"preview_url": "https://p.scdn.co/mp3-preview/ad3f48f868d4ada8786b162ce539a801d85a88d4?cid=ad45b3f07470430fbafcf27af7ec1d99",
+		"image": "https://i.scdn.co/image/f2e33b3debfb276d9ac5ea97d872147015c5eabf"
+	}]
+}
