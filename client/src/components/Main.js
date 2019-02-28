@@ -75,7 +75,7 @@ function Main() {
       socket.removeListener('correct_track', handleCorrectTrack);
       socket.removeListener('correct_artist', handleCorrectArtist);
     };
-  });
+  }, []);
 
   const handleSubmitArtist = e => {
     e.preventDefault();
