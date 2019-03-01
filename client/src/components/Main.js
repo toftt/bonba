@@ -61,7 +61,7 @@ function Main() {
     };
     socket.on('current_track', handleSong);
     socket.emit('current_track');
-    return () => socket.removeListener('current_song', handleSong);
+    return () => socket.removeListener('current_track', handleSong);
   }, []);
 
   useEffect(() => {
