@@ -13,6 +13,29 @@ A user connects
 * current round
 
 
+### Game object calls
+server start
+```
+new Game()
+startNewRound(track)
+```
+
+user join
+```
+newUser(id)
+```
+
+user leave
+```
+deleteUser()
+```
+
+user guess
+```
+guess()
+```
+
+
 ### Messages
 
 connection:

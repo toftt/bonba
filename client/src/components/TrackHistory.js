@@ -17,6 +17,7 @@ const useStyles = makeStyles(() => ({
 
 function TrackHistory({ tracks }) {
   const classes = useStyles();
+  const reverseTracks = tracks.slice().reverse();
 
   return (
     <Paper elevation={4} className={classes.root}>
@@ -25,9 +26,9 @@ function TrackHistory({ tracks }) {
           dense
           subheader={<ListSubheader disableSticky>TRACK HISTORY</ListSubheader>}
         >
-          {tracks.map(({ title, artist, image }) => (
-            <ListItem key={title + artist}>
-              <TrackCard title={title} artist={artist} image={image} />
+          {reverseTracks.map(({ round, track: { name, artists, image, preview_url: previewUrl }}) => (
+            <ListItem key={previewUrl + round}>
+              <TrackCard title={name} artist={artists.join(', ')} image={image} />
             </ListItem>
           ))}
         </List>

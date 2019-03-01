@@ -6,7 +6,7 @@ class Game {
         this.currentTrack = {};
         this.guesses = {};
         this.timeStamp = 0;
-        this.currentRound = 1;
+        this.currentRound = 0;
     }
 
     newUser(userId) {
@@ -19,7 +19,7 @@ class Game {
 
     startNewRound(track) {
         this.timeStamp = (new Date()).getTime();
-        this.trackHistory.push(this.currentTrack);
+        if (this.currentRound !== 0) this.trackHistory.push({ track: this.currentTrack, round: this.currentRound });
         this.currentTrack = track;
         this.currentRound++;
     }
@@ -35,7 +35,9 @@ class Game {
     }
 
     getRemainingTime() {
-        return ((new Date()).getTime - this.timeStamp) / 1000;
+        const time = ((new Date()).getTime() - this.timeStamp) / 1000;
+        console.log(time);
+        return time;
     }
 
     resetTrackHistory() {
@@ -43,9 +45,10 @@ class Game {
     }
 
     guess(guess, userId, what) {
+        console.log(`${userId} guessed ${what} = ${guess}, answer = ${this.currentTrack[what][0]}`);
         if (guess == this.currentTrack[what]) {
             this.users[userId].score++;
-            return true;
+            return this.currentTrack[what];
         }
 
         return false;

@@ -32,6 +32,7 @@ const useStyles = makeStyles(() => ({
 
 function ScoreBoard({ members }) {
   const classes = useStyles();
+  const sortedMembers = members.sort((a, b) => b.score - a.score);
 
   return (
     <Paper className={classes.root}>
@@ -44,15 +45,15 @@ function ScoreBoard({ members }) {
         Scores
       </Typography>
       <List dense disablePadding className={classes.list}>
-        {members.map(({ nickname, points }, index) => (
-          <>
-            <ListItem key={nickname}>
+        {sortedMembers.map(({ nickname, score }, index) => (
+          <div key={nickname}>
+            <ListItem>
               <span className={classes.textLeft}>{index + 1}</span>
               <ListItemText primary={nickname.toUpperCase()} />
-              <ListItemSecondaryAction>{points}</ListItemSecondaryAction>
+              <ListItemSecondaryAction>{score}</ListItemSecondaryAction>
             </ListItem>
             {index !== members.length - 1 && <Divider variant="fullWidth" />}
-          </>
+          </div>
         ))}
       </List>
     </Paper>

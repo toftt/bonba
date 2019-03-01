@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/styles';
 import { Typography, TextField } from '@material-ui/core';
-import { members, tracks, audioUrl } from '../testData';
+import forEach from 'lodash/forEach';
 import { useSocket } from '../SocketContext';
 import ScoreBoard from './ScoreBoard';
 import Player from './Player';
@@ -49,19 +49,31 @@ function Main() {
   const [correctTrack, setCorrectTrack] = useState(null);
   const [correctArtist, setCorrectArtist] = useState(null);
 
-  const [src, setSrc] = useState(audioUrl);
+  const [members, setMembers] = useState([])
+  const [tracks, setTracks] = useState([]);
+
+  const [playerInfo, setPlayerInfo] = useState({src: null, seek: null});
 
   useEffect(() => {
-    const handleSong = newSrc => {
-      setSrc(newSrc);
+    const handleGameState = json => {
+      const gameState = JSON.parse(json);
+      console.log(gameState);
+      const previewUrl = gameState.currentTrack;
+      const seek = gameState.remainingTime;
+      const newMembers = []
+      forEach(gameState.users, (user) => newMembers.push(user));
+      const newTracks = gameState.trackHistory;
+
+      setPlayerInfo({src: previewUrl, seek})
       setTrack('');
       setArtist('');
       setCorrectArtist(null);
       setCorrectTrack(null);
+      setMembers(newMembers);
+      setTracks(newTracks);
     };
-    socket.on('current_track', handleSong);
-    socket.emit('current_track');
-    return () => socket.removeListener('current_track', handleSong);
+    socket.on('game_state', handleGameState);
+    return () => socket.removeListener('game_state', handleGameState);
   }, []);
 
   useEffect(() => {
@@ -130,7 +142,7 @@ function Main() {
               </Typography>
             )}
           </div>
-          <Player src={src} seekTime={0} />
+          <Player src={playerInfo.src} seekTime={playerInfo.seek} />
         </div>
         <Chat />
       </div>

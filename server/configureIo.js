@@ -14,17 +14,23 @@ const configureIo = (io) => {
 
     io.on('connection', (socket) => {
         game.newUser(socket.id);
-        socket.emit('game_state', JSON.stringify(game.getGameState()));
+        io.emit('game_state', JSON.stringify(game.getGameState()));
 
-        socket.on('guess_artist', (artist) => {
-          const correct = game.guess(artist, socket.id, 'artist');
-          if (correct) socket.emit('correct_artist');
+        socket.on('guess_artist', (artistGuess) => {
+          const artist = game.guess(artistGuess, socket.id, 'artists');
+          if (artist) {
+            socket.emit('correct_artist', artist);
+            io.emit('game_state', JSON.stringify(game.getGameState()));
+          }
           else socket.emit('incorrect_artist');
         });
 
-        socket.on('guess_track', (track) => {
-          const correct = game.guess(track, socket.id, 'track');
-          if (correct) socket.emit('correct_track');
+        socket.on('guess_track', (trackGuess) => {
+          const track = game.guess(trackGuess, socket.id, 'name');
+          if (track) {
+            socket.emit('correct_track', track);
+            io.emit('game_state', JSON.stringify(game.getGameState()));
+          } 
           else socket.emit('incorrect_track');
         });
 

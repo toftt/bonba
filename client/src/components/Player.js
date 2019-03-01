@@ -85,11 +85,12 @@ function Player({ src, seekTime }) {
   );
 
   useEffect(() => {
-    audioEl.current.pause();
-    audioEl.current.load();
-    audioEl.current.currentTime = seekTime / 1000;
-    audioEl.current.play();
-  }, [src]);
+    if (src) {
+      audioEl.current.load()
+      if (seekTime > 1) audioEl.current.currentTime = seekTime;
+      audioEl.current.play();
+    }
+  }, [src, seekTime]);
 
   useEffect(() => {
     audioEl.current.volume = volume;
@@ -101,6 +102,7 @@ function Player({ src, seekTime }) {
         ref={audioEl}
         muted={muted}
         onTimeUpdate={() => handleTimeUpdate()}
+        onSeeked={() => audioEl.current.play()}
       >
         <track kind="captions" />
         <source src={src} type="audio/mp3" />
