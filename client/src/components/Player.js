@@ -1,5 +1,5 @@
-import React, { useRef, useEffect, useState, useMemo } from 'react';
-import throttle from 'lodash/throttle';
+import React, { useRef, useEffect, useState } from 'react';
+import { Howl, Howler } from 'howler';
 import { makeStyles } from '@material-ui/styles';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import Typography from '@material-ui/core/Typography';
@@ -65,48 +65,61 @@ const useStyles = makeStyles(theme => ({
 
 function Player({ src, seekTime }) {
   const classes = useStyles();
-  const audioEl = useRef(null);
+  const track = useRef(null);
   const [progress, setProgress] = useState(0);
   const [timeLeft, setTimeLeft] = useState(0);
   const [volume, setVolume] = useState(0.05);
   const [muted, setMuted] = useState(false);
 
-  const handleTimeUpdate = useMemo(
-    () =>
-      throttle(() => {
-        const { duration, currentTime } = audioEl.current;
-        const safeDuration = duration || 30;
-        const newProgress = (currentTime / safeDuration) * 100;
-        const newTimeLeft = Math.round(safeDuration - currentTime);
-        setTimeLeft(newTimeLeft);
-        setProgress(newProgress);
-      }, 1000),
-    [src, seekTime]
-  );
+  const handleTimeUpdate = () => {
+    if (track.current.state() !== 'loaded') {
+      setProgress(0);
+      setTimeLeft(0);
+      return;
+    }
+
+    const seek = track.current.seek();
+    const duration = track.current.duration();
+
+    const newProgress = (seek / duration) * 100;
+    const newTimeLeft = Math.round(duration - seek);
+
+    setProgress(newProgress);
+    setTimeLeft(newTimeLeft);
+  };
 
   useEffect(() => {
     if (src) {
-      audioEl.current.load()
-      if (seekTime > 1) audioEl.current.currentTime = seekTime;
-      audioEl.current.play();
+      const howl = new Howl({
+        src,
+        volume,
+        mute: muted,
+        format: ['mp3'],
+      });
+      track.current = howl;
+
+      howl.once('load', () => howl.seek(seekTime));
+      howl.once('seek', () => howl.play());
+
+      const id = setInterval(() => handleTimeUpdate(), 50);
+      return () => {
+        howl.unload();
+        clearInterval(id);
+      }
     }
+    return () => {};
   }, [src, seekTime]);
 
   useEffect(() => {
-    audioEl.current.volume = volume;
+    if (track.current) track.current.volume(volume);
   }, [volume]);
+
+  useEffect(() => {
+    if (track.current) track.current.mute(muted);
+  }, [muted])
 
   return (
     <div>
-      <audio
-        ref={audioEl}
-        muted={muted}
-        onTimeUpdate={() => handleTimeUpdate()}
-        onSeeked={() => audioEl.current.play()}
-      >
-        <track kind="captions" />
-        <source src={src} type="audio/mp3" />
-      </audio>
       <div className={classes.root}>
         <MusicNoteIcon className={classes.icon} fontSize="large" />
         <div className={classes.wrapper}>
