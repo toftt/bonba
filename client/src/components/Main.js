@@ -73,7 +73,7 @@ function Main() {
       setTracks(newTracks);
     };
     socket.on('game_state', handleGameState);
-    return () => socket.removeListener('game_state', handleGameState);
+    return () => socket.off('game_state', handleGameState);
   }, []);
 
   useEffect(() => {
@@ -91,14 +91,20 @@ function Main() {
 
   useEffect(() => {
     const handleCorrectTrack = t => setCorrectTrack(t);
+    const handleIncorrectTrack = () => setTrack('');
     const handleCorrectArtist = a => setCorrectArtist(a);
+    const handleIncorrectArtist = () => setArtist('');
 
     socket.on('correct_track', handleCorrectTrack);
+    socket.on('incorrect_track', handleIncorrectTrack);
     socket.on('correct_artist', handleCorrectArtist);
+    socket.on('incorrect_artist', handleIncorrectArtist);
 
     return () => {
-      socket.removeListener('correct_track', handleCorrectTrack);
-      socket.removeListener('correct_artist', handleCorrectArtist);
+      socket.off('correct_track', handleCorrectTrack);
+      socket.off('incorrect_track', handleIncorrectTrack);
+      socket.off('correct_artist', handleCorrectArtist);
+      socket.off('incorrect_artist', handleIncorrectArtist);
     };
   }, []);
 
