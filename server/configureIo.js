@@ -23,7 +23,7 @@ const configureIo = (io) => {
           const artist = game.guess(artistGuess, socket.id, 'artists');
           if (artist) {
             socket.emit('correct_artist', artist);
-            io.emit('game_state', JSON.stringify(game.getGameState()));
+            io.emit('user_update', JSON.stringify(game.users));
           }
           else socket.emit('incorrect_artist');
         });
@@ -32,7 +32,7 @@ const configureIo = (io) => {
           const track = game.guess(trackGuess, socket.id, 'name');
           if (track) {
             socket.emit('correct_track', track);
-            io.emit('game_state', JSON.stringify(game.getGameState()));
+            io.emit('user_update', JSON.stringify(game.users));
           } 
           else socket.emit('incorrect_track');
         });
