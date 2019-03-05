@@ -21,7 +21,7 @@ function TrackHistory({ tracks }) {
 
   return (
     <Paper elevation={4} className={classes.root}>
-      <Scrollbars autoHeight autoHeightMax={380}>
+      <Scrollbars autoHeight autoHeightMax={380} autoHeightMin={200}>
         <List
           dense
           subheader={<ListSubheader disableSticky>TRACK HISTORY</ListSubheader>}
