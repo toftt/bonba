@@ -1,11 +1,11 @@
 const fs = require('fs');
 const Game = require('./game.js');
+const builder = require('./NicknameBuilder')(); 
 
 const playlist = JSON.parse(fs.readFileSync('./playlists.json')).popList;
 
 const getRandomTrack = () => {
   const rand = Math.floor(Math.random() * playlist.length);
-  //console.log(`setting new track: ${currentSong.artists} -- ${currentSong.name}`);
   return playlist[rand];
 };
 
@@ -14,6 +14,8 @@ const configureIo = (io) => {
 
     io.on('connection', (socket) => {
         game.newUser(socket.id);
+        game.setNickname(socket.id, builder.getNickname());
+
         io.emit('game_state', JSON.stringify(game.getGameState()));
 
         socket.on('guess_artist', (artistGuess) => {
