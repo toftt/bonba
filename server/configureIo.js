@@ -16,7 +16,8 @@ const configureIo = (io) => {
         game.newUser(socket.id);
         game.setNickname(socket.id, builder.getNickname());
 
-        io.emit('game_state', JSON.stringify(game.getGameState()));
+        socket.emit('game_state', JSON.stringify(game.getGameState()));
+        socket.broadcast.emit('user_update', JSON.stringify(game.users));
 
         socket.on('guess_artist', (artistGuess) => {
           const artist = game.guess(artistGuess, socket.id, 'artists');
@@ -42,6 +43,7 @@ const configureIo = (io) => {
 
         socket.on('disconnect', () => {
           game.deleteUser(socket.id);
+          socket.broadcast.emit('user_update', JSON.stringify(game.users));
         });
     });
 

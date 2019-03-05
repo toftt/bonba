@@ -77,6 +77,19 @@ function Main() {
   }, []);
 
   useEffect(() => {
+    const handleUserUpdate = json => {
+      const userObj = JSON.parse(json);
+      const users = [];
+      forEach(userObj, (user) => users.push(user));
+
+      setMembers(users);
+    }
+
+    socket.on('user_update', handleUserUpdate);
+    return () => socket.off('user_update', handleUserUpdate);
+  });
+
+  useEffect(() => {
     const handleCorrectTrack = t => setCorrectTrack(t);
     const handleCorrectArtist = a => setCorrectArtist(a);
 
