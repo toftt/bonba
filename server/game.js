@@ -1,3 +1,5 @@
+const { checkArtistGuess, checkTrackGuess } = require('./util');
+
 class Game {
 
     constructor() {
@@ -46,7 +48,13 @@ class Game {
 
     guess(guess, userId, what) {
         console.log(`${userId} guessed ${what} = ${guess}, answer = ${this.currentTrack[what][0]}`);
-        if (guess == this.currentTrack[what]) {
+        const answer = this.currentTrack[what];
+        let correctGuess = false;
+
+        if (what === 'artists') correctGuess = checkArtistGuess(guess, answer);
+        else correctGuess = checkTrackGuess(guess, answer);
+
+        if (correctGuess) {
             this.users[userId].score++;
             return this.currentTrack[what];
         }

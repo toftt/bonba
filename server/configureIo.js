@@ -20,9 +20,9 @@ const configureIo = (io) => {
         socket.broadcast.emit('user_update', JSON.stringify(game.users));
 
         socket.on('guess_artist', (artistGuess) => {
-          const artist = game.guess(artistGuess, socket.id, 'artists');
-          if (artist) {
-            socket.emit('correct_artist', artist);
+          const artists = game.guess(artistGuess, socket.id, 'artists');
+          if (artists) {
+            socket.emit('correct_artist', artists);
             io.emit('user_update', JSON.stringify(game.users));
           }
           else socket.emit('incorrect_artist');

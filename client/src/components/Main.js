@@ -92,7 +92,7 @@ function Main() {
   useEffect(() => {
     const handleCorrectTrack = t => setCorrectTrack(t);
     const handleIncorrectTrack = () => setTrack('');
-    const handleCorrectArtist = a => setCorrectArtist(a);
+    const handleCorrectArtist = a => setCorrectArtist(a.join(', '));
     const handleIncorrectArtist = () => setArtist('');
 
     socket.on('correct_track', handleCorrectTrack);
