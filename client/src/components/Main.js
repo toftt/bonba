@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/styles';
-import { Typography, TextField } from '@material-ui/core';
+import { Typography, TextField, InputAdornment } from '@material-ui/core';
+import CheckIcon from '@material-ui/icons/Check';
 import forEach from 'lodash/forEach';
 import { useSocket } from '../SocketContext';
 import ScoreBoard from './ScoreBoard';
@@ -130,36 +131,38 @@ function Main() {
             Guess the song and artist!
           </Typography>
           <div className={classes.inputContainer}>
-            {correctTrack === null ? (
               <form onSubmit={e => handleSubmitTrack(e)}>
                 <TextField
                   fullWidth
+                  disabled={correctTrack !== null}
                   variant="outlined"
                   label="Song name"
-                  value={track}
+                  value={correctTrack || track}
                   onChange={e => setTrack(e.target.value)}
+                  InputProps={{
+                    startAdornment:
+                    correctTrack && <InputAdornment position="start">
+                      <CheckIcon />
+                    </InputAdornment>
+                }}
                 />
               </form>
-            ) : (
-              <Typography component="h5" variant="h5">
-                {correctTrack}
-              </Typography>
-            )}
-            {correctArtist === null ? (
               <form onSubmit={e => handleSubmitArtist(e)}>
                 <TextField
                   fullWidth
+                  disabled={correctArtist !== null}
                   variant="outlined"
                   label="Artist name"
-                  value={artist}
+                  value={correctArtist || artist}
                   onChange={e => setArtist(e.target.value)}
+                  InputProps={{
+                    startAdornment:
+                    correctArtist && <InputAdornment position="start">
+                      <CheckIcon />
+                    </InputAdornment>
+                }}
                 />
               </form>
-            ) : (
-              <Typography component="h5" variant="h5">
-                {correctArtist}
-              </Typography>
-            )}
           </div>
           <Player src={playerInfo.src} seekTime={playerInfo.seek} />
         </div>
